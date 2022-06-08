@@ -8,8 +8,8 @@
 
 html,
 body {
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
     background-color: rgba(0, 0, 0, 0.575);
 }
 
@@ -55,7 +55,7 @@ body {
 }
 
 .hnav {
-    width: 100%;
+    width: 100vw;
     height: 15%;
     color: aliceblue;
     display: flex;
@@ -99,8 +99,8 @@ body {
 
 
 #hnavkeniche {
-    width: 100%;
-    height: 85%;
+    width: 100vw;
+    height: 85vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -137,7 +137,7 @@ body {
 a {
     text-decoration: none;
     color: inherit;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
 }
 
 a:visited {
@@ -279,7 +279,7 @@ a:visited {
 }
 
 #center {
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     justify-content: center;
 }
@@ -583,4 +583,53 @@ a:visited {
 .s34 {
     background-image: url(slide3_4.png);
     background-size: cover;
+}
+
+@media screen and (max-width:768px){
+    #main {
+        height: 100vh;
+        width: 100vw;
+        background-color: #0f1214;
+    }
+    .hnav .center {
+        width: 55%;
+    }
+    .hnav {
+        padding-left: 20px;
+        padding-right: 25px;
+    }
+    .vnavleft .bottom {
+        bottom: 2%;
+        left: 50%;
+    }
+    .vnavleft {
+        width: 15vw;
+    }
+    a {
+        text-decoration: none;
+        color: inherit;
+        padding-bottom: 24px;
+    }
+    #header{
+        width: 50vw;
+        height: 30vh;
+    }
+    #header h1{
+        font-size: 7vw;
+    }
+    .blob{
+        width: 100%;
+        height: 100%;
+        margin: 0%;
+        background-position: center;
+    }
+    #blobright{
+        width: 50vw;
+        height: 100%;
+    }
+    #center{
+        width: 50vw;
+    }
+    
+
 }
