@@ -531,15 +531,15 @@ a:visited {
 }
 
 .s11 {
-    background-image: url(slide1_1.png);
+    background-image: url(11.png);
     background-size: cover;
     background-position: 90%;
 }
 
 .s12 {
-    background-image: url(slide1_2.png);
+    background-image: url(slide1_1.png);
     background-size: cover;
-    background-position: 20%;
+    background-position: 90%;
 }
 
 .s13 {
