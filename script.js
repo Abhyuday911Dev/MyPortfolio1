@@ -26,14 +26,14 @@ gsap.from("#pblob", {
   duration: 2,
   opacity: 0,
   ease: "bounce.out",
-  Stagger: 5
+  
 })
 gsap.from("#skills", {
   y: 80,
   duration: 2,
   opacity: 0,
   ease: "bounce.out",
-  Stagger: 5
+  
 })
 gsap.from(".hnav", {
   x: 80,
@@ -47,7 +47,6 @@ gsap.from(".vnavleft", {
   duration: 2,
   opacity: 0,
   ease: "bounce.out",
-  Stagger: 5
 })
 
 const bouncy = document.querySelectorAll(".a");
@@ -62,6 +61,11 @@ bouncy.forEach(function (elem) {
     });
 })
 
+// function randomBounce(){
+//   var random1=Math.floor(Math.random()*12)
+//   console.log(bouncy[random1])
+// }
+// randomBounce()
 
 window.addEventListener("mousemove", function (dets) {
   let y = dets.pageY;
@@ -131,4 +135,12 @@ document.querySelector("#leftbtn").addEventListener("click", function () {
 
   }
 
+});
+
+if(screen.width<screen.height){
+    document.querySelector("#modal").style.display="initial";
+};
+
+document.querySelector("#modalbtn").addEventListener("click",function(){
+  document.querySelector("#modal").style.display="none";
 });

@@ -36,6 +36,39 @@ body {
     background: #333;
 }
 
+#modal{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.637);
+    z-index: 10;
+    top: 0%;
+    left: 0%;
+    display: none;
+}
+#modelcontent{
+    margin: 30% auto;
+    padding: 20px;
+    width: 80vw;
+    background-color: #222;
+    position: relative;
+}
+
+#modelcontent h4{
+    color: rgba(255, 255, 255, 0.856);
+    font-weight: 400;
+}
+
+#modalbtn{
+    position: absolute;
+    right: 20px;
+    padding: 1px 10px;
+}
+#underdevelopment{
+    color: red;
+    font-size: 12px;
+}
+
 #main {
     height: 100%;
     width: 100%;
