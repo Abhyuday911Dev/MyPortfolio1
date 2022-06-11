@@ -139,6 +139,7 @@ document.querySelector("#leftbtn").addEventListener("click", function () {
 
 if(screen.width<screen.height){
   document.querySelector("#modal").style.display="initial";
+  document.querySelector("#mcircle").style.display="none";
     setTimeout(function(){
       document.querySelector("#modal").style.display="none";
     },10000)
