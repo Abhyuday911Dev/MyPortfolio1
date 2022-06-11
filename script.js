@@ -138,9 +138,8 @@ document.querySelector("#leftbtn").addEventListener("click", function () {
 });
 
 if(screen.width<screen.height){
-    document.querySelector("#modal").style.display="initial";
+  document.querySelector("#modal").style.display="initial";
+    setTimeout(function(){
+      document.querySelector("#modal").style.display="none";
+    },10000)
 };
-
-document.querySelector("#modalbtn").addEventListener("click",function(){
-  document.querySelector("#modal").style.display="none";
-});
