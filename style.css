@@ -430,7 +430,9 @@ a:visited {
     position: relative;
     overflow: hidden;
 }
-
+#arrow{
+    display: none;
+}
 #navprojects {
     width: 100vw;
     height: 10vh;
@@ -754,8 +756,33 @@ a:visited {
        
     }
     #p1line a{
-        width: 90vw;
+        width: 75vw;
         height: 20vh;
+    }
+    
+    @keyframes leftright {
+        0%   {
+            transform: translateX(50%);
+        }
+        50%  {
+            transform: translateX(0%);
+        }
+        100% {
+            transform: translateX(50%);
+        }
+      }
+      #arrow{
+        display: flex;
+        width: 35vw;
+        height: 4vh;
+        background-image: url(arrow.png);
+        color: #fff;
+        background-position: center;
+        background-size: cover;
+        margin-top: 15px;
+        animation-name: leftright;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
     }
     
     

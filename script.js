@@ -142,5 +142,5 @@ if(screen.width<screen.height){
   document.querySelector("#mcircle").style.display="none";
     setTimeout(function(){
       document.querySelector("#modal").style.display="none";
-    },10000)
+    },8000)
 };
