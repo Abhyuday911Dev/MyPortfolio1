@@ -75,6 +75,7 @@ body {
     background-color: #0f1214;
 }
 
+
 #mcircle {
     height: 50px;
     width: 50px;
@@ -128,6 +129,9 @@ body {
     align-items: center;
     justify-content: center;
     color: black;
+}
+#hamburger{
+    display: none;
 }
 
 
@@ -418,7 +422,6 @@ a:visited {
     background-color: #101416;
     padding-top: 3%;
     position: relative;
-    overflow: hidden;
 }
 
 #navprojects {
@@ -427,7 +430,6 @@ a:visited {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 #navprojects h1 {
@@ -444,6 +446,7 @@ a:visited {
     display: flex;
     position: absolute;
     bottom: 0%;
+    overflow: hidden;
 }
 
 #slide2 {
@@ -639,6 +642,9 @@ a:visited {
     .vnavleft {
         width: 15vw;
     }
+    .vnavright{
+        width: 15vw;
+    }
     a {
         text-decoration: none;
         color: inherit;
@@ -666,4 +672,84 @@ a:visited {
     }
     
 
+}
+@media screen and (max-width:500px){
+    .hnav .center{
+        display: none;
+    }
+    #en{
+        display: none;
+    }
+    #hamburger{
+        display: initial;
+        font-size: 20px;
+    }
+    #pblob{
+        display: none;
+    }
+    #blobright{
+        width: 70vw;
+        
+    }
+    #blobright #header{
+        width: 100%;
+    }
+    #blobright #header h1{
+        width: inherit;
+        font-size: 13vw;
+    }
+    #skleftchild {
+        padding-left: 10%;
+    }
+    #skrightchild{
+        padding-left: 10%;
+    }
+    #blobright #header{
+        height: 25vh;
+    }
+    
+
+    #navprojects h1{
+        font-size: 13vw;
+    }
+    #leftbtn, #rightbtn{
+        display: none;
+    }
+    #slideparent {
+        overflow-x: scroll;
+        width: 100vw;
+    }
+    #slideparent::-webkit-scrollbar{
+        display: none;
+    }
+    #p1lineparent{
+        width: 200vw;
+        height: 100%; 
+        flex-direction: row;  
+    }
+    #slide2{
+        width: 200vw;
+        height: 100%; 
+        flex-direction: row;
+
+    }
+    #slide3{
+        width: 200vw;
+        height: 100%; 
+        flex-direction: row;
+    }
+    #p1line{
+        width: 100vw;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+       
+    }
+    #p1line a{
+        width: 90vw;
+        height: 20vh;
+    }
+    
+    
 }
