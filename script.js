@@ -62,9 +62,22 @@ bouncy.forEach(function (elem) {
 })
 
 // function randomBounce(){
+
 //   var random1=Math.floor(Math.random()*12)
-//   console.log(bouncy[random1])
+
+//   bouncy[random1].classList.add("bouncing")
+
+//   setTimeout(function(){
+//     bouncy[random1].classList.remove("bouncing");
+//     randomBounce()
+//   },1000)
+  
 // }
+// randomBounce()
+// randomBounce()
+// randomBounce()
+// randomBounce()
+// randomBounce()
 // randomBounce()
 
 window.addEventListener("mousemove", function (dets) {

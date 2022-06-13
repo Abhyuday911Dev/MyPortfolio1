@@ -1,9 +1,16 @@
+@font-face {
+    font-family: ftff;
+    src: url(Gilroy-Regular.ttf)format("truetype");
+}
+@font-face {
+    font-family: primer;
+    src: url(Prime-Regular.otf);
+}
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: gilroy;
-
+    font-family: ftff;
 }
 
 html,
@@ -16,7 +23,8 @@ body {
 body {
     overflow-x: hidden;
 }
-#parentofall{
+
+#parentofall {
     width: 100vw;
     min-height: 100vh;
     overflow: hidden;
@@ -41,7 +49,7 @@ body {
     background: #333;
 }
 
-#modal{
+#modal {
     position: fixed;
     height: 100%;
     width: 100%;
@@ -51,7 +59,8 @@ body {
     left: 0%;
     display: none;
 }
-#modelcontent{
+
+#modelcontent {
     margin: 30% auto;
     padding: 20px;
     width: 80vw;
@@ -60,17 +69,18 @@ body {
     border-radius: 15px;
 }
 
-#modelcontent h4{
+#modelcontent h4 {
     color: rgba(255, 255, 255, 0.856);
     font-weight: 400;
 }
 
-#modalbtn{
+#modalbtn {
     position: absolute;
     right: 20px;
     padding: 1px 10px;
 }
-#underdevelopment{
+
+#underdevelopment {
     color: red;
     font-size: 12px;
 }
@@ -136,7 +146,8 @@ body {
     justify-content: center;
     color: black;
 }
-#hamburger{
+
+#hamburger {
     display: none;
 }
 
@@ -430,9 +441,11 @@ a:visited {
     position: relative;
     overflow: hidden;
 }
-#arrow{
+
+#arrow {
     display: none;
 }
+
 #navprojects {
     width: 100vw;
     height: 10vh;
@@ -446,7 +459,7 @@ a:visited {
     font-size: 70px;
     font-weight: 400;
     /* font-family: aquire; */
-    font-family: prime;
+    font-family: primer;
 }
 
 #slideparent {
@@ -573,7 +586,7 @@ a:visited {
     font-size: 50px;
     font-weight: 400;
     /* font-family: aquire; */
-    font-family: prime;
+    font-family: primer;
 }
 
 .s11 {
@@ -631,147 +644,180 @@ a:visited {
     background-size: cover;
 }
 
-@media screen and (max-width:1180px){
+@media screen and (max-width:1180px) {
     #main {
         height: 100vh;
         width: 100vw;
         background-color: #0f1214;
     }
+
     .hnav .center {
         width: 55%;
     }
+
     .hnav {
         padding-left: 20px;
         padding-right: 25px;
     }
+
     .vnavleft .bottom {
         bottom: 2%;
         left: 50%;
     }
+
     .vnavleft {
         width: 15vw;
     }
-    .vnavright{
+
+    .vnavright {
         width: 15vw;
     }
+
     a {
         text-decoration: none;
         color: inherit;
         padding-bottom: 24px;
     }
-    #header{
+
+    #header {
         width: 50vw;
         height: 30vh;
     }
-    #header h1{
+
+    #header h1 {
         font-size: 7vw;
     }
-    .blob{
+
+    .blob {
         width: 100%;
         height: 100%;
         margin: 0%;
         background-position: center;
     }
-    #blobright{
+
+    #blobright {
         width: 50vw;
         height: 100%;
     }
-    #center{
+
+    #center {
         width: 50vw;
     }
-    
+
 
 }
-@media screen and (max-width:500px){
-    .hnav .center{
+
+@media screen and (max-width:500px) {
+    .hnav .center {
         display: none;
     }
-    #en{
+
+    #en {
         display: none;
     }
-    #hamburger{
+
+    #hamburger {
         display: initial;
         font-size: 20px;
     }
-    #pblob{
+
+    #pblob {
         display: none;
     }
-    #blobright{
+
+    #blobright {
         width: 70vw;
-        
+
     }
-    #blobright #header{
+
+    #blobright #header {
         width: 100%;
     }
-    #blobright #header h1{
+
+    #blobright #header h1 {
         width: inherit;
         font-size: 13vw;
     }
+
     #skleftchild {
         padding-left: 10%;
     }
-    #skrightchild{
+
+    #skrightchild {
         padding-left: 10%;
     }
-    #blobright #header{
+
+    #blobright #header {
         height: 25vh;
     }
-    
 
-    #navprojects h1{
+
+    #navprojects h1 {
         font-size: 13vw;
     }
-    #leftbtn, #rightbtn{
+
+    #leftbtn,
+    #rightbtn {
         display: none;
     }
+
     #slideparent {
         overflow-x: scroll;
         width: 100vw;
     }
-    #slideparent::-webkit-scrollbar{
+
+    #slideparent::-webkit-scrollbar {
         display: none;
     }
-    #p1lineparent{
+
+    #p1lineparent {
         width: 200vw;
-        height: 100%; 
-        flex-direction: row;  
+        height: 100%;
+        flex-direction: row;
     }
-    #slide2{
+
+    #slide2 {
         width: 200vw;
-        height: 100%; 
+        height: 100%;
         flex-direction: row;
 
     }
-    #slide3{
+
+    #slide3 {
         width: 200vw;
-        height: 100%; 
+        height: 100%;
         flex-direction: row;
     }
-    #p1line{
+
+    #p1line {
         width: 100vw;
         height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-       
+
     }
-    #p1line a{
+
+    #p1line a {
         width: 75vw;
         height: 20vh;
     }
-    
+
     @keyframes leftright {
-        0%   {
+        0% {
             transform: translateX(50%);
         }
-        50%  {
+
+        50% {
             transform: translateX(0%);
         }
+
         100% {
             transform: translateX(50%);
         }
-      }
-      #arrow{
+    }
+
+    #arrow {
         display: flex;
         width: 35vw;
         height: 4vh;
@@ -784,6 +830,6 @@ a:visited {
         animation-duration: 3s;
         animation-iteration-count: infinite;
     }
-    
-    
+
+
 }
