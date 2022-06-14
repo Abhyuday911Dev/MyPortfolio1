@@ -63,14 +63,21 @@ bouncy.forEach(function (elem) {
 
 // function randomBounce(){
 
-//   var random1=Math.floor(Math.random()*12)
+//   // var random1=Math.floor(Math.random()*12)
 
-//   bouncy[random1].classList.add("bouncing")
+//   setInterval(function(){
+//     for(var i=0;i<12;i++){
+//       bouncy[i].style.delay=i
+//       bouncy[i].classList.add("bouncing")
+//     }
+//   },2000)
 
-//   setTimeout(function(){
-//     bouncy[random1].classList.remove("bouncing");
-//     randomBounce()
-//   },1000)
+
+//   setInterval(function(){
+//     for(var p=0;p<12;p++){
+//     bouncy[p].classList.remove("bouncing");
+//     }
+//   },3000)
   
 // }
 // randomBounce()
@@ -96,6 +103,45 @@ document.querySelector(".hnav h3").addEventListener("mouseover", function () {
     document.querySelector(".hnav h3").classList.remove("rotation")
   })
 })
+
+
+
+gsap.from("#pprojecth1 h1",{
+  scrollTrigger:{
+    trigger:"#pprojecth1 h1",
+    scroller:"body",
+    
+    start:"top 70%",
+    end:"bottom 50%",
+    scrub:true
+  },
+  x:100,
+  opacity:0,
+  // onstart: function(){
+  //   $('#pprojecth1 h1').textillate({
+  //     in:{
+  //       effect: 'fadeInLeftBig',
+  //     }
+  //   });
+  // }
+
+})
+
+
+gsap.from("#p1line a",{
+  scrollTrigger:{
+    trigger:"#pprojecth1 h1",
+    scroller:"body",
+    markers:true,
+    start:"top 70%",
+    end:"bottom 30%",
+    scrub:true
+  },
+  x:100,
+  opacity:0,
+})
+
+
 
 var horiSlideParent = 0;
 var horiLeftBtn = 0;
