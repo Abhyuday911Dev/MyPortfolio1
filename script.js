@@ -132,7 +132,6 @@ gsap.from("#p1line a",{
   scrollTrigger:{
     trigger:"#pprojecth1 h1",
     scroller:"body",
-    markers:true,
     start:"top 70%",
     end:"bottom 30%",
     scrub:true
