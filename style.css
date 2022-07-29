@@ -18,7 +18,7 @@ body {
     height: 100vh;
     width: 100vw;
     background-color: rgba(0, 0, 0, 0.575);
-  
+    scroll-behavior: smooth;
 }
 
 
@@ -137,6 +137,19 @@ body {
     align-items: center;
     justify-content: space-evenly;
 }
+.center a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+}
+.center a:visited{
+    color: #fff;
+    text-decoration: none;
+}
+
+.center a:hover{
+    transform: scale(1.1);
+}
 
 #en {
     background-color: #fff;
@@ -190,7 +203,7 @@ body {
     padding-bottom: 70px;
 }
 
-a {
+.social{
     text-decoration: none;
     color: inherit;
     padding-bottom: 20px;
@@ -646,6 +659,109 @@ a:visited {
     background-size: cover;
 }
 
+#htextani{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: #0f121469 solid 20px;
+    padding-bottom: 5px;
+    font-size: 90px;
+    overflow-x: auto;
+    
+}
+#htextani::-webkit-scrollbar{
+    display: none;
+}
+#htextani p{
+    white-space: nowrap;
+    font-family: bigilla;
+    color: rgb(156, 154, 154);
+    letter-spacing: .5vw;
+    position: absolute;
+    animation: hori 78s infinite;
+    animation-timing-function: linear;
+}
+#about {
+    width: 100%;
+    height: 100%;
+    background-color: #141618;
+    position: relative;
+}
+
+#navabout {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 20%;
+}
+
+#navabout h1 {
+    color: rgba(255, 255, 255, 0.651);
+    font-size: 50px;
+    font-weight: 400;
+    /* font-family: aquire; */
+    font-family: primer;
+    
+}
+
+@keyframes hori {
+    from{
+        left: 0%;
+    }
+    to{
+        left: -500%;
+    }
+}
+
+#realabout{
+    width: 100%;
+    height: 60%;
+    position: absolute;
+    bottom: 0%;
+    display: flex;
+}
+
+#realaboutleft{
+    width: 50%;
+    height: 100%;
+    padding: 0vw 5vw;
+}
+
+#realaboutright{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    background-image: url(blobgray.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+#abhy{
+    font-size: 4vw;
+    font-weight: 600;
+    color: rgb(211, 209, 209);
+    padding-bottom: 10px;
+}
+
+#abhydesc{
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(199, 199, 199);
+    padding-bottom: 10px;
+}
+
+#abhydesc2{
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(199, 199, 199);
+}
+
 @media screen and (max-width:1180px) {
     #main {
         height: 100vh;
@@ -675,7 +791,7 @@ a:visited {
         width: 15vw;
     }
 
-    a {
+    .social {
         text-decoration: none;
         color: inherit;
         padding-bottom: 24px;
