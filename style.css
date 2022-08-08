@@ -959,11 +959,22 @@ a:visited {
         animation-duration: 3s;
         animation-iteration-count: infinite;
     }
-    #about{
+
+    #about {
         min-height: 100vh !important;
     }
-    #abhydesc2{
+
+    #abhydesc2 {
         display: none;
     }
 
+    #realabout{
+        flex-direction: column-reverse;
+        /* justify-content: center; */
+        align-items: center;
+    }
+
+    #realaboutright{
+        width: 80%;
+    }
 }
