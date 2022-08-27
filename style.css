@@ -1,11 +1,11 @@
 @font-face {
     font-family: ftff;
-    src: url(Gilroy-Regular.ttf)format("truetype");
+    src: url(./public/fonts/Gilroy-Regular.ttf)format("truetype");
 }
 
 @font-face {
     font-family: primer;
-    src: url(Prime-Regular.otf);
+    src: url(./public/fonts/Prime-Regular.otf);
 }
 
 * {
@@ -455,8 +455,8 @@ a:visited {
 /* rubberband animation important */
 
 #projects {
-    width: 100vw;
-    height: 100%;
+    width: 100%;
+    height: 100vh;
     background-color: #101416;
     padding-top: 3%;
     position: relative;
@@ -611,61 +611,62 @@ a:visited {
 }
 
 .s11 {
-    background-image: url(11.webp);
+    background-image: url(./public/images/11.webp);
     background-size: cover;
     background-position: 90%;
 }
 
 .s12 {
-    background-image: url(slide1_1.webp);
+    background-image: url(./public/images/slide1_1.webp);
     background-size: cover;
     background-position: 90%;
 }
 
 .s13 {
-    background-image: url(slide1_3.webp);
+    background-image: url(./public/images/slide1_3.webp);
     background-size: cover;
     background-position: 90%;
 }
 
 .s14 {
-    background-image: url(5.webp);
+    background-image: url(./public/images/5.webp);
     background-size: cover;
 }
 
 .s15 {
-    background-image: url(6.webp);
+    background-image: url(./public/images/6.webp);
     background-size: cover;
 }
 
 .s16 {
-    background-image: url(slide1_4.webp);
+    background-image: url(./public/images/slide1_4.webp);
     background-size: cover;
     background-position: 30%;
 }
 
 .s24 {
-    background-image: url(slide2_5.webp);
+    background-image: url(./public/images/slide2_5.webp);
     background-size: cover;
 }
 
 .s25 {
-    background-image: url(4.webp);
+    background-image: url(./public/images/4.webp);
     background-size: cover;
     background-position: center;
 }
 
 .s26 {
-    background-image: url(slide2_6.webp);
+    background-image: url(./public/images/slide2_6.webp);
     background-size: cover;
 }
 
 .s34 {
-    background-image: url(slide3_4.webp);
+    background-image: url(./public/images/slide3_4.webp);
     background-size: cover;
 }
 
 #htextani {
+    pointer-events: none;
     height: 100px;
     width: 100%;
     display: flex;
@@ -705,8 +706,8 @@ a:visited {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    top: 20%;
+    /* position: absolute;
+    top: 20%; */
 }
 
 #navabout h1 {
@@ -746,7 +747,7 @@ a:visited {
     width: 50%;
     height: 100%;
     overflow: hidden;
-    background-image: url(blobgray.png);
+    background-image: url(./public/images/blobgray.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -950,7 +951,7 @@ a:visited {
         display: flex;
         width: 35vw;
         height: 4vh;
-        background-image: url(arrow.png);
+        background-image: url(./public/images/arrow.png);
         color: #fff;
         background-position: center;
         background-size: cover;
@@ -977,4 +978,10 @@ a:visited {
     #realaboutright{
         width: 80%;
     }
+
+    #realaboutleft {
+        width: 80%;
+        height: 50%;
+    }
+
 }

@@ -91,10 +91,20 @@ window.addEventListener("mousemove", function (dets) {
   let y = dets.pageY;
   let x = dets.pageX;
 
-  setTimeout(function () {
-    document.querySelector("#mcircle").style.top = y + 30 + "px";
-    document.querySelector("#mcircle").style.left = `${x + 30}px`;
-  }, 100)
+  // console.log(dets)
+
+  gsap.to("#mcircle", {
+    x: `${x + 30}px`,
+    y: `${y + 30}px`,
+  })
+
+  // setTimeout(function () {
+  //   // document.querySelector("#mcircle").style.top = y + 30 + "px";
+  //   // document.querySelector("#mcircle").style.left = `${x + 30}px`;
+
+    
+
+  // }, 0)
 })
 
 document.querySelector(".hnav h3").addEventListener("mouseover", function () {
