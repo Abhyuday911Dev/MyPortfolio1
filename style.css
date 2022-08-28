@@ -590,7 +590,7 @@ a:visited {
     width: 100%;
     height: 90%;
     background-color: #141618;
-    padding-top: 3%;
+    padding-top: 1%;
 }
 
 #navabout {
@@ -695,16 +695,16 @@ a:visited {
 .wrapper {
     max-width: 100%;
     overflow: hidden;
-  }
-  
-  .marquee {
+}
+
+.marquee {
     white-space: nowrap;
     overflow: hidden;
     display: inline-block;
     animation: marquee 90s linear infinite;
-  }
-  
-  .marquee p {
+}
+
+.marquee p {
     pointer-events: none;
     display: inline-block;
     font-family: bigilla;
@@ -712,22 +712,23 @@ a:visited {
     letter-spacing: .5vw;
     padding-bottom: 5px;
     font-size: 90px;
-  }
-  
-  @keyframes marquee {
+}
+
+@keyframes marquee {
     0% {
-      transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
     }
+
     100% {
-      transform: translate3d(-50%, 0, 0);
+        transform: translate3d(-50%, 0, 0);
     }
-  }
+}
 
-
-
-
-
-
+#wrapperbottomline{
+    width: 100%;
+    height: 20px;
+    background-image: linear-gradient(rgb(20,22,24), #0f121469, rgb(20,22,24));
+}
 
 #about {
     width: 100%;
@@ -890,7 +891,7 @@ a:visited {
 
     .vnavleft .top {
         padding-bottom: 45px;
-    }    
+    }
 
     #pblob {
         display: none;
@@ -910,7 +911,7 @@ a:visited {
         font-size: 13vw;
     }
 
-    #skleft{
+    #skleft {
         width: 60%;
     }
 
@@ -1010,7 +1011,7 @@ a:visited {
         min-height: 100vh !important;
     }
 
-    .wrapper{
+    .wrapper {
         margin: 20px 0px;
     }
 
@@ -1018,14 +1019,14 @@ a:visited {
         display: none;
     }
 
-    #realabout{
+    #realabout {
         flex-direction: column-reverse;
         /* justify-content: center; */
         align-items: center;
         bottom: 8%;
     }
 
-    #realaboutright{
+    #realaboutright {
         width: 80%;
         margin-bottom: 30px;
     }
