@@ -692,6 +692,43 @@ a:visited {
     animation-timing-function: linear;
 }
 
+.wrapper {
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+  .marquee {
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    animation: marquee 90s linear infinite;
+  }
+  
+  .marquee p {
+    pointer-events: none;
+    display: inline-block;
+    font-family: bigilla;
+    color: rgb(156, 154, 154);
+    letter-spacing: .5vw;
+    padding-bottom: 5px;
+    font-size: 90px;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translate3d(0, 0, 0);
+    }
+    100% {
+      transform: translate3d(-50%, 0, 0);
+    }
+  }
+
+
+
+
+
+
+
 #about {
     width: 100%;
     min-height: 100vh;
@@ -851,6 +888,10 @@ a:visited {
         font-size: 20px;
     }
 
+    .vnavleft .top {
+        padding-bottom: 45px;
+    }    
+
     #pblob {
         display: none;
     }
@@ -869,12 +910,16 @@ a:visited {
         font-size: 13vw;
     }
 
+    #skleft{
+        width: 60%;
+    }
+
     #skleftchild {
-        padding-left: 10%;
+        padding-left: 15%;
     }
 
     #skrightchild {
-        padding-left: 10%;
+        padding-left: 25%;
     }
 
     #blobright #header {
@@ -965,6 +1010,10 @@ a:visited {
         min-height: 100vh !important;
     }
 
+    .wrapper{
+        margin: 20px 0px;
+    }
+
     #abhydesc2 {
         display: none;
     }
@@ -973,10 +1022,12 @@ a:visited {
         flex-direction: column-reverse;
         /* justify-content: center; */
         align-items: center;
+        bottom: 8%;
     }
 
     #realaboutright{
         width: 80%;
+        margin-bottom: 30px;
     }
 
     #realaboutleft {

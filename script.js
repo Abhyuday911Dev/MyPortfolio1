@@ -150,6 +150,18 @@ gsap.from("#p1line a",{
   opacity:0,
 })
 
+gsap.from("#arrow",{
+  scrollTrigger:{
+    trigger:"#pprojecth1 h1",
+    scroller:"body",
+    start:"top 70%",
+    end:"bottom 30%",
+    scrub:true
+  },
+  x:200,
+  opacity:0,
+})
+
 
 
 var horiSlideParent = 0;
@@ -206,9 +218,9 @@ document.querySelector("#leftbtn").addEventListener("click", function () {
 });
 
 if(screen.width<screen.height){
-  document.querySelector("#modal").style.display="initial";
+  // document.querySelector("#modal").style.display="initial";
   document.querySelector("#mcircle").style.display="none";
-    setTimeout(function(){
-      document.querySelector("#modal").style.display="none";
-    },8000)
+    // setTimeout(function(){
+    //   document.querySelector("#modal").style.display="none";
+    // },8000)
 };
