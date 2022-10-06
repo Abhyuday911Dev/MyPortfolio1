@@ -611,9 +611,9 @@ a:visited {
 }
 
 .s11 {
-    background-image: url(./public/images/11.webp);
+    background-image: url(./public/images/final_project.webp);
     background-size: cover;
-    background-position: 90%;
+    background-position: center;
 }
 
 .s12 {
@@ -661,7 +661,7 @@ a:visited {
 }
 
 .s34 {
-    background-image: url(./public/images/slide3_4.webp);
+    background-image: url(./public/images/slide3_4.png);
     background-size: cover;
 }
 
