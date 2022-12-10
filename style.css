@@ -617,15 +617,15 @@ a:visited {
 }
 
 .s12 {
-    background-image: url(./public/images/slide1_1.webp);
+    background-image: url(./public/images/slide1_1.png);
     background-size: cover;
-    background-position: 90%;
+    background-position: center;
 }
 
 .s13 {
-    background-image: url(./public/images/slide1_3.webp);
+    background-image: url(./public/images/slide1_3.png);
     background-size: cover;
-    background-position: 90%;
+    background-position: center;
 }
 
 .s14 {
@@ -634,14 +634,34 @@ a:visited {
 }
 
 .s15 {
-    background-image: url(./public/images/6.webp);
+    background-image: url(./public/images/6.png);
     background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-position: center;
 }
 
 .s16 {
     background-image: url(./public/images/slide1_4.webp);
     background-size: cover;
     background-position: 30%;
+}
+
+.s21 {
+    background-image: url(./public/images/7.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.s22 {
+    background-image: url(./public/images/8.png);
+    background-size: 130%;
+    background-position: center;
+}
+
+.s23 {
+    background-image: url(./public/images/9.png);
+    background-size: 130%;
+    background-position: center;
 }
 
 .s24 {
@@ -660,8 +680,35 @@ a:visited {
     background-size: cover;
 }
 
+.s31 {
+    background-image: url(./public/images/13.png);
+    background-size: cover;
+}
+
+.s36 {
+    background-image: url(./public/images/14.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.s32 {
+    background-image: url(./public/images/14r.png);
+    background-size: cover;
+}
+
+.s33 {
+    background-image: url(./public/images/15.png);
+    background-size: cover;
+}
+
 .s34 {
     background-image: url(./public/images/slide3_4.png);
+    background-size: cover;
+}
+
+.s35 {
+    background-image: url(./public/images/17.png);
     background-size: cover;
 }
 
