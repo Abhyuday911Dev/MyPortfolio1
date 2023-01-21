@@ -26,14 +26,14 @@ gsap.from("#pblob", {
   duration: 2,
   opacity: 0,
   ease: "bounce.out",
-  
+
 })
 gsap.from("#skills", {
   y: 80,
   duration: 2,
   opacity: 0,
   ease: "bounce.out",
-  
+
 })
 gsap.from(".hnav", {
   x: 80,
@@ -78,7 +78,7 @@ bouncy.forEach(function (elem) {
 //     bouncy[p].classList.remove("bouncing");
 //     }
 //   },3000)
-  
+
 // }
 // randomBounce()
 // randomBounce()
@@ -102,7 +102,7 @@ window.addEventListener("mousemove", function (dets) {
   //   // document.querySelector("#mcircle").style.top = y + 30 + "px";
   //   // document.querySelector("#mcircle").style.left = `${x + 30}px`;
 
-    
+
 
   // }, 0)
 })
@@ -116,17 +116,17 @@ document.querySelector(".hnav h3").addEventListener("mouseover", function () {
 
 
 
-gsap.from("#pprojecth1 h1",{
-  scrollTrigger:{
-    trigger:"#pprojecth1 h1",
-    scroller:"body",
-    
-    start:"top 70%",
-    end:"bottom 50%",
-    scrub:true
+gsap.from("#pprojecth1 h1", {
+  scrollTrigger: {
+    trigger: "#pprojecth1 h1",
+    scroller: "body",
+
+    start: "top 70%",
+    end: "bottom 50%",
+    scrub: true
   },
-  x:100,
-  opacity:0,
+  x: 100,
+  opacity: 0,
   // onstart: function(){
   //   $('#pprojecth1 h1').textillate({
   //     in:{
@@ -138,28 +138,28 @@ gsap.from("#pprojecth1 h1",{
 })
 
 
-gsap.from("#p1line a",{
-  scrollTrigger:{
-    trigger:"#pprojecth1 h1",
-    scroller:"body",
-    start:"top 70%",
-    end:"bottom 30%",
-    scrub:true
+gsap.from("#p1line a", {
+  scrollTrigger: {
+    trigger: "#pprojecth1 h1",
+    scroller: "body",
+    start: "top 70%",
+    end: "bottom 30%",
+    scrub: true
   },
-  x:100,
-  opacity:0,
+  x: 100,
+  opacity: 0,
 })
 
-gsap.from("#arrow",{
-  scrollTrigger:{
-    trigger:"#pprojecth1 h1",
-    scroller:"body",
-    start:"top 70%",
-    end:"bottom 30%",
-    scrub:true
+gsap.from("#arrow", {
+  scrollTrigger: {
+    trigger: "#pprojecth1 h1",
+    scroller: "body",
+    start: "top 70%",
+    end: "bottom 30%",
+    scrub: true
   },
-  x:200,
-  opacity:0,
+  x: 200,
+  opacity: 0,
 })
 
 
@@ -184,7 +184,7 @@ document.querySelector("#rightbtn").addEventListener("click", function () {
     })
     gsap.to("#rightbtn", {
       x: `${horiRightBtn}vw`,
-      duration: 1, 
+      duration: 1,
       ease: "power4.inOut"
 
     })
@@ -199,7 +199,7 @@ document.querySelector("#leftbtn").addEventListener("click", function () {
     horiRightBtn -= 100;
     gsap.to("#slideparent", {
       x: `${horiSlideParent}vw`,
-      duration: 1, 
+      duration: 1,
       ease: "power4.inOut"
     })
     gsap.to("#leftbtn", {
@@ -209,7 +209,7 @@ document.querySelector("#leftbtn").addEventListener("click", function () {
     })
     gsap.to("#rightbtn", {
       x: `${horiRightBtn}vw`,
-      duration: 1, 
+      duration: 1,
       ease: "power4.inOut"
     })
 
@@ -217,10 +217,11 @@ document.querySelector("#leftbtn").addEventListener("click", function () {
 
 });
 
-if(screen.width<screen.height){
+setTimeout(function () {
+  document.querySelector("#modal").style.display = "none";
+}, 6000)
+
+if (screen.width < screen.height) {
   // document.querySelector("#modal").style.display="initial";
-  document.querySelector("#mcircle").style.display="none";
-    // setTimeout(function(){
-    //   document.querySelector("#modal").style.display="none";
-    // },8000)
+  document.querySelector("#mcircle").style.display = "none";
 };

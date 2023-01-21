@@ -58,15 +58,16 @@ body {
     position: fixed;
     height: 100%;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.637);
+    /* background-color: rgba(255, 255, 255, 0.637); */
     z-index: 10;
     top: 0%;
     left: 0%;
-    display: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #modelcontent {
-    margin: 30% auto;
     padding: 20px;
     width: 80vw;
     background-color: #222;
