@@ -221,7 +221,7 @@ setTimeout(function () {
   document.querySelector("#modal").style.display = "none";
 }, 6000)
 
-if (screen.width < screen.height) {
-  // document.querySelector("#modal").style.display="initial";
-  document.querySelector("#mcircle").style.display = "none";
-};
+// if (screen.width < screen.height) {
+//   // document.querySelector("#modal").style.display="initial";
+//   document.querySelector("#mcircle").style.display = "none";
+// };
