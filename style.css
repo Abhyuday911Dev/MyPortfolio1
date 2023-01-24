@@ -115,7 +115,7 @@ body {
 
 .hnav {
     width: 100vw;
-    height: 15vh;
+    height: 14vh;
     color: aliceblue;
     display: flex;
     align-items: center;
@@ -179,7 +179,7 @@ body {
 
 #hnavkeniche {
     width: 100vw;
-    height: 85vh;
+    height: 86vh;
     display: flex;
     align-items: center;
     /* justify-content: space-between; */
