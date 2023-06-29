@@ -705,13 +705,13 @@ a:visited {
 }
 
 .s12 {
-    background-image: url(./public/images/slide1_1.png);
+    background-image: url(./public/images/slide1_1.webp);
     background-size: cover;
     background-position: center;
 }
 
 .s13 {
-    background-image: url(./public/images/slide1_3.png);
+    background-image: url(./public/images/slide1_3.webp);
     background-size: cover;
     background-position: center;
 }
@@ -722,7 +722,7 @@ a:visited {
 }
 
 .s15 {
-    background-image: url(./public/images/6.png);
+    background-image: url(./public/images/6.webp);
     background-size: cover;
     /* background-repeat: no-repeat; */
     background-position: center;
@@ -735,19 +735,19 @@ a:visited {
 }
 
 .s21 {
-    background-image: url(./public/images/7.png);
+    background-image: url(./public/images/7.webp);
     background-size: cover;
     background-position: center;
 }
 
 .s22 {
-    background-image: url(./public/images/8.png);
+    background-image: url(./public/images/8.webp);
     background-size: 130%;
     background-position: center;
 }
 
 .s23 {
-    background-image: url(./public/images/9.png);
+    background-image: url(./public/images/9.webp);
     background-size: 130%;
     background-position: center;
 }
@@ -769,34 +769,34 @@ a:visited {
 }
 
 .s31 {
-    background-image: url(./public/images/13.png);
+    background-image: url(./public/images/13.webp);
     background-size: cover;
 }
 
 .s36 {
-    background-image: url(./public/images/14.png);
+    background-image: url(./public/images/14.webp);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .s32 {
-    background-image: url(./public/images/14r.png);
+    background-image: url(./public/images/14r.webp);
     background-size: cover;
 }
 
 .s33 {
-    background-image: url(./public/images/15.png);
+    background-image: url(./public/images/15.webp);
     background-size: cover;
 }
 
 .s34 {
-    background-image: url(./public/images/slide3_4.png);
+    background-image: url(./public/images/slide3_4.webp);
     background-size: cover;
 }
 
 .s35 {
-    background-image: url(./public/images/17.png);
+    background-image: url(./public/images/17.webp);
     background-size: cover;
 }
 
