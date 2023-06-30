@@ -86,8 +86,13 @@ body {
     margin-bottom: 7%;
 }
 
-#Modelinfo small{
+#Modelinfo span{
     color: tomato;
+    font-size: 20px;
+}
+
+#Modelinfo h3{
+    margin-bottom: 0;
 }
 
 
