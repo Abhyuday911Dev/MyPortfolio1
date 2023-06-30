@@ -247,7 +247,7 @@ figure {
 }
 
 .center a:hover {
-    /* color: rgb(254, 208, 123); */
+    color: #fff;
     transform: scale(1.1);
 }
 
@@ -308,6 +308,10 @@ figure {
     text-decoration: none;
     color: inherit;
     padding-bottom: 20px;
+}
+
+.social i{
+    color: #fff;
 }
 
 a:visited {
