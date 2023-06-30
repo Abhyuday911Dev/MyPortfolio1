@@ -64,6 +64,31 @@ body {
     background-color: rgb(21, 21, 21);
 }
 
+#modal{
+    background-color: #222;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    z-index: 5;
+    color: #fafafa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Modelinfo{
+    padding: 35px 30px;
+    background-color: #1a1a1a;
+    width: 70%;
+    border-radius: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#Modelinfo small{
+    color: tomato;
+}
+
 
 #particleDivChild {
     height: 100vh;
@@ -144,25 +169,6 @@ figure {
     100% {
         transform: rotateX(70deg) rotateY(-60deg) rotate(360deg);
     }
-}
-
-#modelcontent {
-    padding: 20px;
-    width: 80vw;
-    background-color: #222;
-    position: relative;
-    border-radius: 15px;
-}
-
-#modelcontent h4 {
-    color: rgba(255, 255, 255, 0.856);
-    font-weight: 400;
-}
-
-#modalbtn {
-    position: absolute;
-    right: 20px;
-    padding: 1px 10px;
 }
 
 #underdevelopment {
@@ -1024,6 +1030,10 @@ a:visited {
 }
 
 @media screen and (max-width:500px) {
+
+    #Modelinfo{
+        width: 85%;
+    }
     .hnav .center {
         display: none;
     }
