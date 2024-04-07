@@ -846,17 +846,19 @@ a:visited {
     white-space: nowrap;
     overflow: hidden;
     display: inline-block;
-    animation: marquee 90s linear infinite;
+    animation: marquee 50s linear infinite;
+    margin: 2% 0 0.5% 0;
 }
 
 .marquee p {
     pointer-events: none;
     display: inline-block;
     font-family: bigilla;
-    color: rgb(156, 154, 154);
+    color: rgb(60, 60, 60);
     letter-spacing: .5vw;
-    padding-bottom: 5px;
+    text-transform: uppercase;
     font-size: 90px;
+    margin-bottom: 0 !important;
 }
 
 @keyframes marquee {
@@ -878,10 +880,10 @@ a:visited {
 #about {
     width: 100%;
     min-height: 100vh;
-    background-color: #111416;
+    background-color: #101214;
     position: relative;
     overflow: hidden;
-    padding-top: 1%;
+    padding-bottom: 3%;
 }
 
 #navabout {
@@ -895,7 +897,9 @@ a:visited {
 }
 
 #navabout h1 {
-    color: rgba(255, 255, 255, 0.651);
+    color: rgba(187, 183, 183, 0.523);
+    color: rgb(60, 60, 60);
+
     font-size: 50px;
     font-weight: 400;
     /* font-family: aquire; */
@@ -916,18 +920,18 @@ a:visited {
 #realabout {
     width: 100%;
     height: 60%;
-    position: absolute;
+    /* position: absolute; */
     bottom: 0%;
     display: flex;
 }
 
 #realaboutleft {
-    width: 50%;
+    width: 70%;
     height: 100%;
     padding: 0vw 5vw;
 }
 
-#realaboutright {
+/* #realaboutright {
     width: 50%;
     height: 100%;
     overflow: hidden;
@@ -935,21 +939,39 @@ a:visited {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-}
+    position: relative;
+} */
 
 
 #abhy {
     font-size: 4vw;
+    line-height: 4vw;
     font-weight: 600;
-    color: rgb(211, 209, 209);
-    padding-bottom: 10px;
+    margin-bottom: 20px;
+    color: rgba(157, 118, 20, 0.783);
 }
 
-#abhydesc {
+#abhydesc,
+.intropara {
     font-size: 20px;
     font-weight: 300;
-    color: rgb(199, 199, 199);
+    color: rgb(113, 113, 113);
     padding-bottom: 10px;
+    text-align: justify;
+    list-style: none;
+}
+#abhydesc{
+    font-size: 18px;
+    border-left: 1.5px solid #666;
+    padding-left: 10px;
+    margin-left: 20px;
+    font-weight: 200;
+    color: rgba(171, 129, 21, 0.783);
+}
+
+#realaboutleft ul {
+    border-left: 1.5px solid #666;
+    margin-left: 30px;
 }
 
 #abhydesc2 {
@@ -1090,7 +1112,9 @@ a:visited {
     #blobright #header {
         height: 25vh;
     }
-
+    .marquee p{
+        font-size: 20px;
+    }
 
     #navprojects h1 {
         font-size: 13vw;
@@ -1196,7 +1220,7 @@ a:visited {
     }
 
     #realaboutleft {
-        width: 80%;
+        width: 100%;
         height: 50%;
     }
 
