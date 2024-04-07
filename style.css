@@ -944,8 +944,8 @@ a:visited {
 
 
 #abhy {
-    font-size: 4vw;
-    line-height: 4vw;
+    font-size:  max(4vw,25px);
+    line-height: max(4vw,25px);
     font-weight: 600;
     margin-bottom: 20px;
     color: rgba(157, 118, 20, 0.783);
