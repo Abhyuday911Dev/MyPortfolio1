@@ -65,7 +65,7 @@ body {
     background-color: rgb(20, 20, 20);
 }
 
-#modal{
+#modal {
     background-color: #222;
     height: 100vh;
     width: 100%;
@@ -78,7 +78,7 @@ body {
     justify-content: center;
 }
 
-#Modelinfo{
+#Modelinfo {
     padding: 30px 25px;
     background-color: #1a1a1a;
     width: 70%;
@@ -87,12 +87,12 @@ body {
     margin-bottom: 7%;
 }
 
-#Modelinfo span{
+#Modelinfo span {
     color: tomato;
     font-size: 20px;
 }
 
-#Modelinfo h3{
+#Modelinfo h3 {
     margin-bottom: 0;
 }
 
@@ -105,7 +105,7 @@ body {
     top: 0%;
 }
 
-#figparent{
+#figparent {
     position: relative;
     top: 50%;
     left: 50%;
@@ -311,7 +311,7 @@ figure {
     padding-bottom: 20px;
 }
 
-.social i{
+.social i {
     color: #fff;
 }
 
@@ -691,13 +691,6 @@ a:visited {
     cursor: pointer;
 }
 
-#about {
-    width: 100%;
-    height: 90%;
-    background-color: #141618;
-    padding-top: 1%;
-}
-
 #navabout {
     width: 100%;
     height: 10%;
@@ -885,9 +878,10 @@ a:visited {
 #about {
     width: 100%;
     min-height: 100vh;
-    background-color: #141618;
+    background-color: #111416;
     position: relative;
     overflow: hidden;
+    padding-top: 1%;
 }
 
 #navabout {
@@ -1042,9 +1036,10 @@ a:visited {
 
 @media screen and (max-width:500px) {
 
-    #Modelinfo{
+    #Modelinfo {
         width: 85%;
     }
+
     .hnav .center {
         display: none;
     }
